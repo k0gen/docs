@@ -1,0 +1,9 @@
+[book]
+authors = ["Mariusz Kogen"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Start9 Documentation"
+
+[build]
+build-dir = "docs"
