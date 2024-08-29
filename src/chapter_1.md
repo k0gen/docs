@@ -79,39 +79,39 @@ echo "This is a shell command"
 
 ### Info
 
-{{#admonish info}}
+```admonish info
 This is an informational note.
-{{/admonish}}
+```
 
 ### Warning
 
-{{#admonish warning}}
+```admonish warning
 This is a warning note.
-{{/admonish}}
+```
 
 ### Error
 
-{{#admonish danger}}
+```admonish danger
 This is a danger note.
-{{/admonish}}
+```
 
 ### Success
 
-{{#admonish success}}
+```admonish success
 This is a success note.
-{{/admonish}}
+```
 
 ### Tips
 
-{{#admonish tip}}
+```admonish tip
 This is a tip!
-{{/admonish}}
+```
 
 ### Custom Titles
 
-{{#admonish note title="Custom Note Title"}}
+```admonish note title="Custom Note Title"
 This is a note with a custom title.
-{{/admonish}}
+```
 
 ## 5. Blockquotes
 
