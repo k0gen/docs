@@ -3,7 +3,7 @@ authors = ["Mariusz Kogen"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Start9 Documentation"
+title = "Documentation"
 
 [build]
 build-dir = "docs"
@@ -19,4 +19,11 @@ assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
 [output.html]
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
-additional-css = ["./theme/mdbook-admonish.css"]
+additional-css = [
+    "./theme/mdbook-admonish.css",
+    "./theme/custom.css"
+]
+additional-js = ["./theme/theme-toggle.js"]
+git-repository-url = "https://github.com/k0gen/docs"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/k0gen/docs/tree/main/{path}"
