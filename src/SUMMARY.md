@@ -3,7 +3,7 @@
 [Introduction](README.md)
 
 ---
-# 📘 User Manual
+# 📘 La User Manual
 - [Initial Setup - Start Fresh](user-manual/start-fresh.md)
 - [Initial Setup - Recover](user-manual/recover.md)
 - [Trusting Your Root CA](user-manual/trust-ca.md)
